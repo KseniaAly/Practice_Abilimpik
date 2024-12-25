@@ -1,0 +1,466 @@
+.navigation .row{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.navigation .row a{
+    width: 10%;
+    font-weight: 500;
+}
+.navigation .row .link{
+    display: flex;
+    align-items: baseline;
+}
+.navigation .row .link p{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.navigation{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.titule_main h1{
+    color: #0540F2;
+    font-size: 48px;
+}
+.titule_main{
+    margin-bottom: 40px;
+}
+.main_information .section-info p{
+    font-weight: 500;
+}
+
+/*Для странички о нас*/
+.main_information .section-tasks .cards{
+    background-color: #E5F1FF;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    margin-right: 10px;
+    height: 470px;
+    margin-bottom: 30px;
+}
+.main_information .section-tasks .cards h5{
+    margin-top: 10px;
+}
+.main_information .section-tasks .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main_information .section-tasks h3{
+    margin-bottom: 60px;
+    color: #0540F2;
+}
+/*Для странички о нас*/
+
+
+/*Для контактов*/
+.main_information .section-contacts .block{
+    width: 100%;
+    margin-top: 25px;
+}
+.main_information .section-contacts img{
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.main_information .section-contacts p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.main_information .section-contacts .container{
+    display: flex;
+    justify-content: space-between;
+}
+.main_information .section-contacts .email{
+    display: flex;
+    align-items: baseline;
+}
+.main_information .section-contacts .email i{
+    margin-right: 10px;
+    color: #0540F2;
+}
+.main_information .section-contacts .email p{
+    color: #0540F2;
+}
+.main_information .section-contacts .post{
+    margin-bottom: 20px;
+}
+.main_information .section-contacts .block:nth-child(1){
+    margin-top: 0px;
+}
+/*Для контактов*/
+
+/*Для добровольничества*/
+.main_information .section-instruction .text p{
+    font-weight: 500;
+}
+.main_information .section-instruction h5{
+    color: #0540F2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main_information .section-instruction .name{
+    display: flex;
+    align-items: center;
+    color: #0540F2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_information .section-instruction i{
+    font-size: 30px;
+}
+.main_information .section-instruction .name p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.main_information .section-instruction .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main_information .section-instruction .block{
+    width: 40%;
+}
+.main_information .section-instruction .block .text{
+    display: none;
+}
+.main_information .section-instruction .block:hover .text{
+    display: block;
+}
+.main_information .section-instruction .container .content h5{
+    margin-bottom: 30px;
+}
+.main_information .section-instruction p{
+    font-weight: 500;
+}
+.main_information .section-link a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main_information .instruction p a{
+    color: #0540F2;
+    font-size: 16px;
+}
+.main_information .instruction a:hover{
+    color: #0432BC;
+}
+.main_information .section-link a{
+    color: #0540F2;
+}
+.main_information .section-link a:hover{
+    color: #0432BC;
+}
+/*Для добровольничества*/
+
+/*Для экспертов*/
+.main_information .section a{
+    color: #0540F2;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main_information .section a:hover{
+    color: #0432BC;
+}
+.main_information .section .file{
+    margin-bottom: 30px;
+    color: #0540F2;
+    display: flex;
+    align-items: center;
+}
+.main_information .section .file p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+/*Для экспертов*/
+
+
+/*Для молодых*/
+.main_information p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.main_information .section-young .title h5{
+    margin-bottom: 30px;
+    color: #0540F2;
+}
+.main_information .section-young .file{
+    margin-top: 40px;
+}
+.main_information .section-young .file i{
+    font-size: 30px;
+}
+.main_information .section-young .img_code{
+    width: 300px;
+}
+.main_information .section-links i{
+    font-size: 50px;
+}
+.main_information .section-links{
+    align-items: start;
+    margin-top: -50px;
+}
+.main_information .section-links a{
+    display: flex;
+    align-items: center;
+}
+.main_information .section-links a p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+/*Для молодых*/
+
+/*Для историй*/
+.main_information .section-histories .img{
+    background-color: #E5E5E5;
+    border-radius: 15px;
+    width: 580px;
+    height: 258px;
+    margin-right: 40px;
+}
+.main_information .section-histories .histories{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.main_information .section-histories .new{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_information .section-histories .new h5{
+    font-size: 14px;
+}
+.main_information .section-histories .text{
+    margin-top: 30px;
+}
+.main_information .section-histories .new h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0540F2;
+    margin-top: 20px;
+}
+/*Для историй*/
+
+/*Для рубрик*/
+.main_information .section-categories .button{
+    background-color: #007AFF;
+    width: 100%;
+    padding: 5px;
+}
+.main_information .section-categories .button:hover{
+    background-color: #0432BC;
+}
+.main_information .section-categories .buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*Для рубрик*/
+
+/*Для документов*/
+.main_information .section-documents .file i{
+    font-size: 30px;
+}
+/*Для документов*/
+
+/*Для фото*/
+.main_information .section-gallery .row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_information .section-gallery .row .img{
+    width: 370px;
+    background-color: rgb(214, 214, 214);
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+/*Для фото*/
+
+/*Для регионального чемпионата*/
+.main_information .section-champion .title h4{
+    color: #0540F2;
+    margin-bottom: 20px;
+}
+.main_information .section-champion .title h5{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #0540F2;
+}
+.main_information .section-champion .file{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main_information .section-champion .file i{
+    font-size: 25px;
+}
+.main_information .section-champion .file p{
+    font-size: 16px;
+}
+.main_information .section-champion .link{
+    font-size: 16px;
+}
+.main_information .section-champion .instruction{
+    margin-top: 30px;
+}
+.main_information .section-champion .section-instructions .line{
+    width: 100%;
+    height: 2px;
+    background-color: #007AFF;
+    margin-top: 40px;
+}
+
+.section-champion .competencies{
+    margin-top: 30px;
+}
+.section-champion .competencies .accordion{
+    width: 30%;
+}
+.section-champion .competencies .accordion .acc-item{
+    width: 100%;
+}
+.section-champion .competencies label h2{
+    flex-grow: 8;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.section-champion .acc-header{
+    display: flex;
+    align-items: center;
+    border: 3px solid #007AFF;
+    padding: 20px;
+    background-color: #007AFF;
+    border-radius: 15px 15px 0px 0px;
+}
+.section-champion .fa-chevron-down{
+    font-size: 30px;
+    color: white;
+    transition: .25s;
+    transform: rotate(180deg);
+}
+.section-champion .acc-main{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding: 20px;
+}
+.section-champion .acc-hider{
+    overflow: hidden;
+    height: 0;
+    border: 3px solid #007AFF;
+    border-top: none;
+    transition: .25s linear;
+}
+#acc1:checked ~ .accordion #label-acc1 .acc-hider{
+    height: 650px;
+    transition: .25s linear;
+}
+#acc1:checked ~ .accordion #label-acc1 .fa-chevron-down{
+    transform: rotate(0deg);
+    transition: .25s;
+}
+#acc2:checked ~ .accordion #label-acc2 .acc-hider{
+    height: 1250px;
+    transition: .25s linear;
+}
+#acc2:checked ~ .accordion #label-acc2 .fa-chevron-down{
+    transform: rotate(0deg);
+    transition: .25s;
+}
+#acc3:checked ~ .accordion #label-acc3 .fa-chevron-down{
+    transform: rotate(0deg);
+    transition: .25s;
+}
+#acc3:checked ~ .accordion #label-acc3 .acc-hider{
+    height: 250px;
+    transition: .25s linear;
+}
+.section-champion .acc-item{
+    display: block;
+    margin-bottom: 20px;
+}
+.section-champion input{
+    display: none;
+}
+/*Для регионального чемпионата*/
+
+/*Для мероприятий*/
+.main_information .section-events .img{
+    background-color: #E5E5E5;
+    border-radius: 15px;
+    width: 580px;
+    height: 258px;
+    margin-right: 40px;
+}
+.main_information .section-events .events{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.main_information .section-events .new{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_information .section-events .new h5{
+    font-size: 14px;
+}
+.main_information .section-events .text{
+    margin-top: 30px;
+}
+.main_information .section-events .new h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0540F2;
+    margin-top: 20px;
+}
+/*Для мероприятий*/
+
+/*Для направления*/
+.main_information .section-info .row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_information .section-info .row img{
+    width: 370px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.main_information .section-info .images{
+    margin-top: 40px;
+}
+/*Для направления*/
+
+/*Для национального*/
+.main_information .section .row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_information .section .row img{
+    width: 370px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.main_information .section .images{
+    margin-top: 40px;
+}
+/*Для национального*/
+
+.main_information .section-link{
+    margin-bottom: 20px;
+}
